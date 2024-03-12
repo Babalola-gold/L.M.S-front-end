@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
+/* h1 {
+  font-size: 40px !important;
+  width: 600px;
+  font-family: 'REM', sans-serif;
+
+} */
+
+.nav-button {
+  font-size: 12px !important;
+  font-weight: bold !important;
+  color: white !important;
+  font-family: 'Rubik', sans-serif !important;
+  border-radius: 0% !important;
+}
+
+.nav-button.active {
+  border-bottom: 2px solid goldenrod;
+}
+.again {
+  border-bottom: 1px solid goldenrod;
+  
+}
+.elementorr{
+  background-image: url('src/assets/notion (1).jpg');
+  background-size: cover;
+  background-position: center;
+  height: 10vh; 
+}
+.elementor-head{
+  color: #4F4A4A;
+  font-size: 16px;
+  line-height: 1.3em;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.container-fluid{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+  
+  
+}
+
+@media (max-width: 768px) {
+  .container-fluid{
+    display: block;
+    width: 100%;
+  }
+}
+
+.containerer p{
+  margin: 0 0 20px;
+  font-size: small;
+}
+.outer-wrap{
+  background-color: #FBFBFB;
+}
+.outer-wrap {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.wrap{
+  padding: 10px;
+}
