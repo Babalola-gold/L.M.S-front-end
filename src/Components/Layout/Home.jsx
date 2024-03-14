@@ -1,7 +1,6 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
-import { Carousel } from "flowbite-react";
-import img from "../../assets/grad.jpg";
+
 
 
 
@@ -14,37 +13,7 @@ const Home = () => {
 
   return (
     <>
-      <Carousel id="default-carousel" className="relative w-full" data-carousel="slide">
-        <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-          {/* Carousel Items */}
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src={img} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-          </div>
-          {/* Add more carousel items here */}
-        </div>
-
-        {/* Carousel Navigation Buttons */}
-        <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-          <button type="button" className="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-          {/* Add more navigation buttons for each slide */}
-        </div>
-
-        {/* Previous Button */}
-        <button type="button" className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-          <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            {/* Add previous button icon */}
-            <span className="sr-only">Previous</span>
-          </span>
-        </button>
-
-        {/* Next Button */}
-        <button type="button" className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-          <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            {/* Add next button icon */}
-            <span className="sr-only">Next</span>
-          </span>
-        </button>
-      </Carousel>
+      
 
 
 
