@@ -13,7 +13,7 @@ import CheckIcon from '@mui/icons-material/Check';
 
 const AdminLogin = () => {
     const navigate = useNavigate();
-    const URL = "http://localhost:6050/admin/login";
+    const URL = "https://l-m-s-back-end.onrender.com/admin/login";
     const [showPassword, setShowPassword] = useState(false);
     const [loggingIn, setLoggingIn] = useState(false);
     const [loginSuccess, setLoginSuccess] = useState(false);

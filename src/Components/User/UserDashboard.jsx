@@ -25,7 +25,7 @@ const UserDashboard = () => {
         navigate('/user/login');
       }
 
-      axios.post('http://localhost:6050/user/verifyToken', { token })
+      axios.post('https://l-m-s-back-end.onrender.com/user/verifyToken', { token })
         .then(response => {
           console.log(response.data);
           if (token === response.data.token) {

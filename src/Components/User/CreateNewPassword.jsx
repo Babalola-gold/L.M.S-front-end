@@ -6,7 +6,7 @@ import axios from 'axios';
 
 const CreateNewPassword = () => {
     const navigate = useNavigate();
-    const URL = "http://localhost:6050/user/createnewpassword";
+    const URL = "https://l-m-s-back-end.onrender.com/user/createnewpassword";
     const [buttonText, setButtonText] = useState("Create new password");
 
     const { handleChange, handleSubmit, values, errors } = useFormik({

@@ -8,7 +8,7 @@ import Alert from '@mui/material/Alert';
 const AdminSignup = () => {
 
     const navigate = useNavigate();
-    const URL = "http://localhost:6050/admin/register";
+    const URL = "https://l-m-s-back-end.onrender.com/admin/register";
     // const [showPassword, setShowPassword] = useState(false);
     const [signingUp, setSigningUp] = useState(false); // State to track signup process
 

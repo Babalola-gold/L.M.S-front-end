@@ -6,7 +6,7 @@ import { userVerifySchema } from "../Schema/userVerifySchema";
 
 const UserInputOTP = () => {
     const navigate = useNavigate();
-    const URL = "http://localhost:6050/user/verifyotp";
+    const URL = "https://l-m-s-back-end.onrender.com/user/verifyotp";
     const [buttonText, setButtonText] = useState("Verify OTP");
 
     const { handleChange, handleSubmit, values, errors } = useFormik({

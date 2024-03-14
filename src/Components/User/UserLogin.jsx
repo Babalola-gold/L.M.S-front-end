@@ -10,7 +10,7 @@ import { setMatricNumber } from "../../Redux/MatricSlice";
 const UserLogin = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
-    const URL = "http://localhost:6050/user/login";
+    const URL = "https://l-m-s-back-end.onrender.com/user/login";
     const [showPassword, setShowPassword] = useState(false);
     const [loggingIn, setLoggingIn] = useState(false);
     const [loginSuccess, setLoginSuccess] = useState(false);

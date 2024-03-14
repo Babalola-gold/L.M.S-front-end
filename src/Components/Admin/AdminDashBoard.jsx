@@ -16,7 +16,7 @@ const AdminDashBoard = () => {
                 navigate('/admin/login');
             }
 
-            axios.post('http://localhost:6050/admin/verifyToken', { token })
+            axios.post('https://l-m-s-back-end.onrender.com/admin/verifyToken', { token })
                 .then(response => {
 
                     if (token === response.data.token) {

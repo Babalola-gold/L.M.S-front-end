@@ -6,7 +6,7 @@ import { userForgetSchema } from "../Schema/userForgetSchema"
 
 const ForgetPassword = () => {
     const navigate = useNavigate()
-    const URL = "http://localhost:6050/user/forgot"
+    const URL = "https://l-m-s-back-end.onrender.com/user/forgot"
     const [buttonText, setButtonText] = useState("Send OTP")
 
     const { handleChange, handleSubmit, values, errors } = useFormik({

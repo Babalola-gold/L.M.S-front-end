@@ -17,7 +17,7 @@ const initialValues = {
 const UserSignUp = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const URL = "http://localhost:6050/user/register";
+  const URL = "https://l-m-s-back-end.onrender.com/user/register";
   const [showPassword, setShowPassword] = useState(false);
   const [signingUp, setSigningUp] = useState(false);
   const initialValues = {

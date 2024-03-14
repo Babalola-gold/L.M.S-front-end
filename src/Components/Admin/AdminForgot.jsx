@@ -6,7 +6,7 @@ import axios from 'axios'
 
 const AdminForgot = () => {
     const navigate = useNavigate()
-    const URL = "http://localhost:6050/admin/forgot"
+    const URL = "https://l-m-s-back-end.onrender.com/admin/forgot"
     const [buttonText, setButtonText] = useState("Send OTP")
 
     const { handleChange, handleSubmit, values, errors } = useFormik({

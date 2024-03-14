@@ -6,7 +6,7 @@ import axios from 'axios';
 
 const AdminInputOTP = () => {
     const navigate = useNavigate();
-    const URL = "http://localhost:6050/admin/verifyotp";
+    const URL = "https://l-m-s-back-end.onrender.com/admin/verifyotp";
     const [buttonText, setButtonText] = useState("Verify OTP");
 
     const { handleChange, handleSubmit, values, errors } = useFormik({
